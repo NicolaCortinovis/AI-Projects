@@ -244,11 +244,11 @@ def aStarSearch(problem: SearchProblem, heuristic=nullHeuristic):
     
         
     # Data structures for the algorithm:
-    # - A priority queue with a function to detected the order, given by util.py
+    # - A priority queue 
     # - A set for saving the expanded nodes, given by python
     
     # Given the frontier in A* the node to expand is given by f(n) = g(n) + h(n)
-    # this will be the function for the ProprityQueueWithfunction
+    # This will be given using an evaluation function 
     
     
     
